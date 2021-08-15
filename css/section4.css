@@ -1,9 +1,10 @@
 .section4{
-  margin-left: 45px;
+  margin: 0 auto;
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
   color: #14183E;
+  width: 90%;
 }
 
 .section4-left-content{
