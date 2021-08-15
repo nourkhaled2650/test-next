@@ -13,6 +13,7 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 50px;
   width: 90%;
 }
@@ -59,4 +60,14 @@
 
 .divided {
     background: linear-gradient(transparent 54%, #3F8E94 45%, #3F8E94 55%, transparent 55%);
+  }
+
+  @media (max-width: 1366px) {
+    .divided{
+      background: none;
+    }
+
+    .s5-box{
+      margin: 15px;
+    }
   }

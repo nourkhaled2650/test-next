@@ -16,6 +16,7 @@
 
 .pledge-container {
   display: flex;
+  flex-wrap: wrap-reverse;
   justify-content: space-between;
   align-items: flex-start;
 }
