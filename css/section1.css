@@ -1,6 +1,7 @@
 .section1 {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     margin-top: 100px;
     margin-left: 45px;
   }
@@ -11,7 +12,7 @@
   }
   
   .section1-p {
-    margin-top: 50px;
+    margin-top: 30px;
     color: #7d7d7d;
   }
   
@@ -21,10 +22,10 @@
     justify-content: center;
     margin-top: 15px;
     border: none;
-    background: hsl(184, 42%, 63%);
+    background: #3F8E94;
     color: white;
     height: 8vh;
-    width: 12vw;
+    width: 16vw;
     font-size: 16px;
     border-radius: 10px;
     cursor: pointer;
@@ -46,17 +47,21 @@
       justify-content: space-between;
       align-items: center;
       margin-top: 25px;
-      width: 15%;
+      margin-left: 20px;
+      width: 40%;
   }
   
   .section1-right-content{
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0;
   }
   
   .man-img-container{
-    background-image: url(../assets/images/man-with-suit.png);
+    background-image: url(../assets/images/section1/dr_ashraf_sheta_landing.png);
+    background-size: 450px auto;
     width: 450px;
     height: 80vh;
     overflow: hidden;
   }
-  
