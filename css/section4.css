@@ -1,0 +1,30 @@
+.section4{
+  margin-left: 45px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  color: #14183E;
+}
+
+.section4-left-content{
+    height: 400px;
+}
+
+.section4-right-content{
+  margin-right: 50px;
+}
+
+.section4-right-content h3 {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.section4-right-content h4 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.s4-list-item{
+  margin-top: 15px;
+}
