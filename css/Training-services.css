@@ -54,6 +54,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 40rem;
 }
 
 .services_sec_6 {
@@ -72,6 +73,8 @@
     margin-bottom: 2rem;
 
 }
+
+.services_sec_RightCol {}
 
 .services_sec_ul {
     list-style-type: none !important;
