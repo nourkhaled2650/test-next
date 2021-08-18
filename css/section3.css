@@ -4,8 +4,10 @@
   width: 90%;
 }
 
-.section3-head{
-    font-size: 40px;
+.section3-head {
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 2rem;
 }
 
 .section3-p {
@@ -54,9 +56,9 @@
   background: #14183e;
 }
 
-.section3-right-content{
-    height: 450px;
-    user-select: none;
-    margin-right: 25px;
-    box-shadow: 130px -1px 360px -70px rgba(119, 195, 200, 0.55);
+.section3-right-content {
+  height: 450px;
+  user-select: none;
+  margin-right: 25px;
+  box-shadow: 130px -1px 360px -70px rgba(119, 195, 200, 0.55);
 }

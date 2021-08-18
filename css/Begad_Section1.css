@@ -20,9 +20,10 @@
 
 .sec_1_h2,
 .sec_3_h2 {
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-    margin-top: 2rem;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 2rem;
+    margin-top: 5rem;
 }
 
 .sec_3_h2 {
@@ -35,7 +36,12 @@
 .sec_2_p {
     font-size: 19px;
     color: gray;
-    max-width: 45rem;
+    max-width: 40rem;
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: 600;
 }
 
 /*------------------- Card Carousel Css ------------------- */
@@ -186,11 +192,17 @@ svg:hover {
 }
 
 /*------------ Section 2 ------------------*/
+.sec_2_h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
 .sec_2_card_row,
 .sec_1_card_row {
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
     padding: 0rem;
 }
 
@@ -204,6 +216,7 @@ svg:hover {
     border-radius: 0.5rem;
     border: 3.5px solid transparent;
     min-height: 23rem !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .sec_2_card_col:hover {
@@ -217,6 +230,10 @@ svg:hover {
 }
 
 .card-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
     padding: 1rem 0rem !important;
 }
 
@@ -235,12 +252,12 @@ svg:hover {
     margin: 1rem 0.5rem;
     display: flex;
     justify-content: center;
-    align-items: baseline;
+    align-items: center;
 
 }
 
 .sec_3_col {
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     min-height: 25rem !important;
     height: 100% !important;
     display: flex;
@@ -259,12 +276,6 @@ svg:hover {
     text-decoration: underline;
 }
 
-.sec_3_cardBody {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
 .sec_4_rightCol {
     background-color: #295A5E;
@@ -317,6 +328,19 @@ svg:hover {
 
 
 /*----------- Footer ----------------*/
+.footer_col {
+    display: flex;
+    justify-content: baseline;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer_col>h5 {
+    font-size: 16px !important;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
 footer,
 footer a {
     color: white;
@@ -331,12 +355,12 @@ footer a:hover {
 .footer-copyright {
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
+    font-size: 14px;
 }
 
 .footer-copyright>a {
     color: white;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 11px;
 }
 
 footer {
@@ -346,15 +370,16 @@ footer {
 
 .social_media_logo {
     background-color: white;
-    color: teal;
+    color: teal !important;
     padding: 0.5rem;
     border-radius: 50%;
-    margin: 0.2rem;
-    width: 30px;
-    height: 30px;
+    margin-right: 0.3rem;
+    width: 27px;
+    height: 27px;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center !important;
 }
 
 .social_media_logo:hover {
@@ -365,17 +390,18 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 1rem 0;
+    padding: 0rem 0;
     flex-direction: column;
+    line-height: 1.75rem;
 }
 
 .list-unstyled>li {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
-    padding: 1rem 0;
+    padding: 0rem 0;
     flex-direction: column;
-    font-size: 13.5px;
+    font-size: 12px;
 }
 
 .social_media_logo_li {

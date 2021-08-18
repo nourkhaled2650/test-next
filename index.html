@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="css/section4.css">
     <link rel="stylesheet" href="css/section5.css">
     <link rel="stylesheet" href="/css/Begad_Section1.css">
+    <link rel="stylesheet" href="/css/Navbar.css">
+
     <!-- Bootstrap -->
     <link href="https://unpkg.com/bootstrap@4.0.0/dist/css/bootstrap.css" rel="stylesheet">
     <!-- Jquery -->
@@ -19,62 +21,89 @@
     <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
     <script src="https://unpkg.com/popper.js@1.12.9/dist/umd/popper.js"></script>
     <script src="https://unpkg.com/bootstrap@4.0.0/dist/js/bootstrap.js"></script>
+
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <script defer src="/javascript/scrollToSection.js"></script>
     <title>Dr Ashraf</title>
+
 </head>
 
 <body>
-
-    <nav id="nav" class="index-nav">
-        <div class="wrapper">
-            <div class="logo">
-                <img height="100%" src="/assets/images/nav/as-logo.png" alt="">
-            </div>
-            <div class="menu-container">
-                <ul class="menu-items">
-                    <li>
-                        <a href="#section1" class="menu-item">Home</a>
-                    </li>
-                    <li>
-                        <a href="#section2" class="menu-item">About Us</a>
-                    </li>
-                    <li>
-                        <a href="#section3" class="menu-item">Our Pledge</a>
-                    </li>
-                    <li>
-                        <a href="#section4" class="menu-item">Value Proposition</a>
-                    </li>
-                    <li>
-                        <a href="#section5" class="menu-item">Experiential Learning Framework</a>
-                    </li>
-                    <li>
-                        <a href="#section_1" class="menu-item">Consultancy & Coaching Services</a>
-                    </li>
-                    <li>
-                        <a href="#section_2" class="menu-item">Training Services</a>
-                    </li>
+    <header>
+        <nav class="nav navbar navbar-expand-md" id="navbar_id">
+            <div class="container-fluid fixed-top navbar_div">
+                <a class="navbar-brand logo" href="#">
+                    <img src="/assets/images/Begad_section_1/final logo.png" alt="" width="190" height="150">
+                </a>
+                <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                        <i class="fas fa-bars" style="color:#3a8fff; font-size:25px;"></i>
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-nav-scroll nav-list menu-items"
+                        style="--bs-scroll-height: 100px;">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#section1"
+                                style="color: #7bb5ff !important;">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section2">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section3">Our Pledge</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section4">Value Proposition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section5">Experiential Learning Framework</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                                <li><a class="dropdown-item" href="#section_1">Consultancy & Coaching Services</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#section_2">Training Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#section_3">Our Team</a>
+                        </li>
+                </div>
+                </li>
                 </ul>
             </div>
+        </nav>
         </div>
-    </nav>
-
+    </header>
     <section class="section1" id="section1">
         <div class="section1-left-content">
-
             <h1 class="welcome-head">Welcome</h1>
-
             <p class="section1-p">
-                Ashraf Sheta for Consultancy and Training (AS) is aiming to provide <br>
+                Ashraf Sheta for Consultancy and Training is aiming to provide <br>
                 its customers with complete solutions ,which can enhance <br>
                 performance. Our approach is comprehensive ,it is mainly built on <br>
                 the fact that all of the training ,consultancy ,and coaching activities <br>
                 should be aligned; to create sound outcomes for the customers' <br>
                 served.
             </p>
-
-            <button class="section1-button">My Personal Website</button>
+            <button class="section1-button" onclick="window.open(
+                'https://www.ashrafsheta.me/',
+                '_blank')">My
+                Personal
+                Website</button>
 
             <div class="section1-social-container">
                 <!-- facebook icon -->
@@ -127,7 +156,7 @@
     <section class="section2" id="section2">
         <h2 class="section2-head">About Us</h2>
         <p class="section2-p">
-            AS is a privately held company working in the fields of consultancy and training, <br>
+            We are a privately held company working in the fields of consultancy and training, <br>
             Our scope of work includes five main strategic areas: Entrepreneurship, Corporate, Innovation, Small and
             medium
             Enterprise, and <br>
@@ -146,7 +175,6 @@
 
         </p>
     </section>
-
     <section class="section3" id="section3">
         <h2 class="section3-head">Our Pledge</h2>
         <div class="pledge-container">
@@ -184,7 +212,6 @@
             </div>
         </div>
     </section>
-
     <section class="section4" id="section4">
         <div class="section4-left-content"><img height="100%" src="/assets/images/section4/charts.png" alt=""></div>
         <div class="section4-right-content">
@@ -298,7 +325,7 @@
                         <div class="card">
                             <img src="/assets/images/Begad_section_1/4.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h4 class="card-title text-center">Family Business</h4>
+                                <h4 class="card-title text-center">Small and medium enterprises</h4>
                             </div>
                         </div>
                     </div>
@@ -306,7 +333,7 @@
                         <div class="card">
                             <img src="/assets/images/Begad_section_1/5.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h4 class="card-title text-center">Family Business</h4>
+                                <h4 class="card-title text-center">Non-governmental organizations</h4>
                             </div>
                         </div>
                     </div>
@@ -314,7 +341,7 @@
                         <div class="card">
                             <img src="/assets/images/Begad_section_1/6.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h4 class="card-title text-center">Family Business</h4>
+                                <h4 class="card-title text-center">Governmental</h4>
                             </div>
                         </div>
                     </div>
@@ -322,7 +349,7 @@
                         <div class="card">
                             <img src="/assets/images/Begad_section_1/7.png" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <h4 class="card-title text-center">Family Business</h4>
+                                <h4 class="card-title text-center">Education</h4>
                             </div>
                         </div>
                     </div>
@@ -396,8 +423,10 @@
                         <li class="sec_2_list">2- Ideation the complete process</li>
                         <li class="sec_2_list">3- Exploring the creative mindset </li>
                     </ul>
-                    <div class="card-body">
-                        <a href="#" class="card-link">Read More →</a>
+                    <div class="card-body  menu-items">
+                        <a href="Training-services.html#papers" target="_blank" class="card-link readMore-link">Read
+                            More
+                            →</a>
                     </div>
                 </div>
             </div>
@@ -467,7 +496,9 @@
                         <li class="sec_2_list">2- Exploring the mare of benetits and</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Read More →</a>
+                        <a href="Training-services.html#services_sec_2" target="_blank"
+                            class="card-link readMore-link">Read More
+                            →</a>
                     </div>
                 </div>
             </div>
@@ -565,7 +596,9 @@
                         </li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Read More →</a>
+                        <a href="Training-services.html#services_sec_3" target="_blank"
+                            class="card-link readMore-link">Read More
+                            →</a>
                     </div>
                 </div>
             </div>
@@ -594,8 +627,6 @@
                             </g>
                         </g>
                     </svg>
-
-                    </svg>
                     <div class="card-body">
                         <h5 class="card-title">(SME) development training</h5>
                     </div>
@@ -604,7 +635,9 @@
                         <li class="sec_2_list">2- How to deal with chalenges facing your firm</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Read More →</a>
+                        <a href="Training-services.html#services_sec_4" target="_blank"
+                            class="card-link readMore-link">Read More
+                            →</a>
                     </div>
                 </div>
             </div>
@@ -631,7 +664,6 @@
                             d="M410.014,286.957l-1.124-1.124,6.687-6.687v-2.732h1.589v3.39Zm7.153-11.6h-1.589v-1.589h1.589Zm0-2.648h-1.589v-1.589h1.589Zm0,0"
                             transform="translate(-365.568 -242.445)" fill="#fff" />
                     </svg>
-
                     <div class="card-body">
                         <h5 class="card-title">The family business training</h5>
                     </div>
@@ -642,7 +674,9 @@
                         <li class="sec_2_list">2- Designing a succession plan in family business</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Read More →</a>
+                        <a href="Training-services.html#services_sec_5" target="_blank"
+                            class="card-link readMore-link">Read More
+                            →</a>
                     </div>
                 </div>
             </div>
@@ -654,8 +688,6 @@
                             d="M72.58,52.667,62.514,49.249a1.048,1.048,0,0,0-1.326.628l-.784,2.2-7.221-5.019a3.96,3.96,0,0,0-2.256-.7c-5.768.116-6.446-.288-7.51.408-.882.509-1.37,1.135-2.442,1.135H34.256a4.294,4.294,0,0,0-3.667,2.038L27.12,45.787H63.411a1.031,1.031,0,0,0,1.042-1.019V42.317A8.478,8.478,0,0,0,59.3,34.573a5.157,5.157,0,0,0,1.493-5.78,5.4,5.4,0,0,0-10.027-.007,5.157,5.157,0,0,0,1.485,5.782,8.586,8.586,0,0,0-2.825,1.98,8.666,8.666,0,0,0-2.828-1.98,5.157,5.157,0,0,0,1.486-5.782,5.4,5.4,0,0,0-10.027,0,5.157,5.157,0,0,0,1.492,5.781,8.608,8.608,0,0,0-2.45,1.605,8.6,8.6,0,0,0-2.451-1.605,5.156,5.156,0,0,0,1.492-5.781,5.4,5.4,0,0,0-10.027,0A5.156,5.156,0,0,0,27.6,34.572a8.514,8.514,0,0,0-5.063,6.612,5.132,5.132,0,0,0-6,1.516,4.857,4.857,0,0,0,0,6.053L26.537,61.4a4.349,4.349,0,0,0,3.437,1.651H56.5l-.893,2.512a1.013,1.013,0,0,0,.643,1.3l10.066,3.418a1.05,1.05,0,0,0,1.327-.628l5.58-15.685a1.015,1.015,0,0,0-.643-1.3ZM52.506,30.643a3.271,3.271,0,1,1,3.276,3.2h-.007a3.24,3.24,0,0,1-3.269-3.2Zm3.268,5.234h.005a6.525,6.525,0,0,1,6.591,6.439v1.432H49.188V42.317A6.518,6.518,0,0,1,55.773,35.878ZM39.8,30.643a3.271,3.271,0,1,1,3.276,3.2h-.006a3.24,3.24,0,0,1-3.27-3.2Zm3.272,5.234a6.634,6.634,0,0,1,5.1,2.377A8.259,8.259,0,0,0,47.1,42.317v1.432H39.8V42.317a8.224,8.224,0,0,0-1.376-4.568,6.622,6.622,0,0,1,4.642-1.871ZM27.854,30.643a3.271,3.271,0,1,1,3.272,3.2h-.005A3.24,3.24,0,0,1,27.854,30.643Zm3.267,5.234h.005a6.518,6.518,0,0,1,6.591,6.439v1.432h-12.3l-.884-1.06v-.373A6.522,6.522,0,0,1,31.121,35.878ZM29.973,61.012a2.263,2.263,0,0,1-1.79-.856L18.189,47.511a2.867,2.867,0,0,1,.552-4.007,3.026,3.026,0,0,1,4.116.4L30,52.464a4.238,4.238,0,0,0,4.251,3.791h10.65a1.019,1.019,0,1,0,0-2.038H34.256a2.137,2.137,0,1,1,0-4.273h6.719c1.884,0,2.826-1.056,3.6-1.482.179-.116-.057-.039,6.348-.061a1.851,1.851,0,0,1,1.052.324l7.71,5.361-2.465,6.928Zm36.042,7-8.1-2.748,4.9-13.76,8.1,2.749Z"
                             transform="translate(-15.485 -25.395)" fill="#fff" />
                     </svg>
-
-
                     <div class="card-body">
                         <h5 class="card-title">Public sector training</h5>
                     </div>
@@ -666,14 +698,16 @@
                         <li class="sec_2_list">3- Enhancing innovation in the public sector</li>
                     </ul>
                     <div class="card-body">
-                        <a href="#" class="card-link">Read More →</a>
+                        <a href="Training-services.html#services_sec_6" target="_blank"
+                            class="card-link readMore-link">Read More
+                            →</a>
                     </div>
                 </div>
             </div>
         </div>
         </div>
     </section>
-    <section class="section_3">
+    <section class="section_3" id="section_3">
         <div class="container">
             <div class="row sec_3_row">
                 <h2 class="text-center sec_3_h2">Our Team</h2>
@@ -688,7 +722,7 @@
                             <p class="card-text sec_3_p">CEO and Founder Entrepreneurship, Innovation, Strategy and
                                 Family
                                 Business Senior Expert </p>
-                            <a href="#" class="btn sec_3_bio">Bio</a>
+                            <a href="Dr-Ashraf.html" target="_blank" class="btn sec_3_bio">Bio</a>
                         </div>
                     </div>
                 </div>
@@ -699,7 +733,7 @@
                         <div class="card-body sec_3_cardBody">
                             <h5 class="card-title">Ingi Farid </h5>
                             <p class="card-text sec_3_p">Human Resources Senior Expert </p>
-                            <a href="#" class="btn sec_3_bio">Bio</a>
+                            <a href="Dr-Ingi.html" target="_blank" class="btn sec_3_bio">Bio</a>
                         </div>
                     </div>
                 </div>
@@ -709,10 +743,8 @@
                             class="card-img-top sec_3_Cardimage" alt="...">
                         <div class="card-body sec_3_cardBody">
                             <h5 class="card-title">Dr. Mona Ali</h5>
-                            <p class="card-text sec_3_p ">CEO and Founder Entrepreneurship, Innovation, Strategy and
-                                Family
-                                Business Senior Expert </p>
-                            <a href="#" class="btn sec_3_bio">Bio</a>
+                            <p class="card-text sec_3_p ">Operations Management Senior Expert </p>
+                            <a href="Dr-Mona.html" target="_blank" class="btn sec_3_bio">Bio</a>
                         </div>
                     </div>
                 </div>
@@ -789,7 +821,7 @@
                             transform="translate(-3 -6)" fill="#fff" />
                     </svg>
 
-                    <p class="sec_4_p">info@ashrafsheta.co</p>
+                    <p class="sec_4_p">info@ashrafsheta.com</p>
                 </div>
                 <div class="row contact_div"><svg xmlns="http://www.w3.org/2000/svg" width="24.966" height="35.665"
                         viewBox="0 0 24.966 35.665">
@@ -811,54 +843,16 @@
                 <!-- Grid row -->
                 <div class="row">
                     <!-- Grid column -->
-                    <div class="col-md-3 mt-md-0 mt-3">
+                    <div class="col-md-3 mt-md-0 mt-3 footer_col">
                         <!-- Content -->
-                        <img src="/assets/images/Begad_section_1/final logo-white.png" class="" width="250px"
-                            height="250px" alt="...">
+                        <img src="/assets/images/Begad_section_1/final logo-white.png" class="" width="200px"
+                            height="170px" alt="...">
                     </div>
                     <!-- Grid column -->
-                    <hr class="clearfix w-100 d-md-none pb-3">
-                    <!-- Grid column -->
-                    <div class="col-md-3 mb-md-0 mb-3">
-                        <!-- Links -->
-                        <h5 class="text-uppercase">Useful Links</h5>
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!">About</a>
-                            </li>
-                            <li>
-                                <a href="#!">Contact</a>
-                            </li>
-                            <li class="social_media_logo_li">
-                                <a href="#" class="fa fa-facebook social_media_logo"></a>
-                                <a href="#" class="fa fa-twitter social_media_logo"></a>
-                                <a href="#" class="fa fa-linkedin social_media_logo"></a>
-                                <a href="#" class="fa fa-instagram social_media_logo"></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Grid column -->
-
-                    <!-- Grid column -->
-                    <div class="col-md-3 mb-md-0 mb-3">
+                    <div class="col-md-3 mb-md-0 mb-3 footer_col">
 
                         <!-- Links -->
-                        <h5 class="text-uppercase">Help?</h5>
-
-                        <ul class="list-unstyled">
-                            <li>
-                                <a href="#!">FAQ Terms & Conditions</a>
-                            </li>
-                            <li>
-                                <a href="#!"> Policy & Policy</a>
-                            </li>
-                        </ul>
-                    </div>
-                    <!-- Grid column -->
-                    <div class="col-md-3 mb-md-0 mb-3">
-
-                        <!-- Links -->
-                        <h5 class="text-uppercase">Address</h5>
+                        <h5 class="">Address</h5>
 
                         <ul class="list-unstyled">
                             <li>
@@ -874,14 +868,38 @@
 
                     </div>
                     <!-- Grid column -->
+                    <hr class="clearfix w-100 d-md-none pb-3">
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 mb-md-0 mb-3 footer_col">
+                        <!-- Links -->
+                        <h5 class="">Personal Website</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://www.ashrafsheta.me/">www.ashrafsheta.me </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 mb-md-0 mb-3 footer_col">
+                        <!-- Links -->
+                        <h5 class="">Social</h5>
+                        <ul class="list-unstyled">
+                            <li class="social_media_logo_li">
+                                <a href="#" class="fa fa-facebook social_media_logo"></a>
+                                <a href="#" class="fa fa-twitter social_media_logo"></a>
+                                <a href="#" class="fa fa-linkedin social_media_logo"></a>
+                                <a href="#" class="fa fa-instagram social_media_logo"></a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
                 <!-- Grid row -->
             </div>
             <!-- Footer Links -->
             <!-- Copyright -->
-            <div class="footer-copyright text-center py-3">© Copyright e 2021
+            <div class="footer-copyright text-center py-3">© Copyright 2021
                 <a href="https://www.ashrafsheta.com"> www.ashrafsheta.com </a> Design I
-                <a href="https://www.TEQNEIA.com"> TEQNEIA </a>
+                <img src="/assets/images/Begad_section_1/white logo.png" class="" width="55px" height="15px" alt="...">
             </div>
             <!-- Copyright -->
         </footer>
@@ -892,6 +910,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <script src="javascript/CardCarousel.js"></script>
+    <script src="javascript/Navbar.js"></script>
 </body>
 
 </html>

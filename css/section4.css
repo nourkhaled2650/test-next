@@ -1,4 +1,4 @@
-.section4{
+.section4 {
   margin: 0 auto;
   margin-top: 100px;
   display: flex;
@@ -8,18 +8,18 @@
   width: 90%;
 }
 
-.section4-left-content{
-    height: 400px;
+.section4-left-content {
+  height: 400px;
 }
 
-.section4-right-content{
+.section4-right-content {
   margin-right: 50px;
 }
 
 .section4-right-content h3 {
-  font-size: 36px;
   font-weight: 600;
-  margin-bottom: 10px;
+  font-size: 40px;
+  margin-bottom: 2rem;
 }
 
 .section4-right-content h4 {
@@ -27,6 +27,6 @@
   margin-bottom: 10px;
 }
 
-.s4-list-item{
+.s4-list-item {
   margin-top: 15px;
 }

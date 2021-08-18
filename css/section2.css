@@ -1,15 +1,19 @@
 .section2 {
-    background: hsl(184, 38%, 92%);
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
-  
-  .section2-head{
-    color: #14183E;
-    text-align: center;
-  }
-  
-  .section2-p{
-    color: #303030;
-    text-align: center;
-  }
+  background: hsl(184, 38%, 92%);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding: 3rem;
+}
+
+.section2-head {
+  color: #14183E;
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 2rem;
+}
+
+.section2-p {
+  color: #303030;
+  text-align: center;
+}
