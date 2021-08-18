@@ -42,12 +42,18 @@
 
 .services_sec {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
     padding: 2rem;
     margin: 3rem 0;
     border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.services_sec_row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .services_sec>.container {
