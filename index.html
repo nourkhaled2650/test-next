@@ -13,15 +13,24 @@
     <link rel="stylesheet" href="css/section5.css">
     <link rel="stylesheet" href="/css/Begad_Section1.css">
     <link rel="stylesheet" href="/css/Navbar.css">
+    <link rel="stylesheet" href="/css/Training-services.css">
+
 
     <!-- Bootstrap -->
     <link href="https://unpkg.com/bootstrap@4.0.0/dist/css/bootstrap.css" rel="stylesheet">
+    <!--Owl Carousel-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- Jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.js"></script>
     <script src="https://unpkg.com/popper.js@1.12.9/dist/umd/popper.js"></script>
     <script src="https://unpkg.com/bootstrap@4.0.0/dist/js/bootstrap.js"></script>
-
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css" />
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -38,7 +47,7 @@
         <nav class="nav navbar navbar-expand-md" id="navbar_id">
             <div class="container-fluid fixed-top navbar_div">
                 <a class="navbar-brand logo" href="#">
-                    <img src="/assets/images/Begad_section_1/final logo.png" alt="" width="190" height="150">
+                    <img src="/assets/images/Begad_section_1/final logo.png" alt="" width="150" height="120">
                 </a>
                 <button class=" navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
                     aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,20 +59,19 @@
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0 navbar-nav-scroll nav-list menu-items"
                         style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#section1"
-                                style="color: #7bb5ff !important;">Home</a>
+                            <a class="nav-link active toscroll" aria-current="page" href="#section1">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section2">About Us</a>
+                            <a class="nav-link toscroll" href="#section2">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section3">Our Pledge</a>
+                            <a class="nav-link toscroll" href="#section3">Our Pledge</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section4">Value Proposition</a>
+                            <a class="nav-link toscroll" href="#section4">Value Proposition</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section5">Experiential Learning Framework</a>
+                            <a class="nav-link toscroll" href="#section5">Experiential Learning Framework</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
@@ -71,15 +79,19 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                                <li><a class="dropdown-item" href="#section_1">Consultancy & Coaching Services</a></li>
+                                <li><a class="dropdown-item toscroll" href="#section_1">Consultancy & Coaching
+                                        Services</a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="#section_2">Training Services</a></li>
+                                <li><a class="dropdown-item toscroll" href="#section_2">Training Services</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#section_3">Our Team</a>
+                            <a class="nav-link toscroll" href="#section_3">Our Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link toscroll" href="#section_4">Contact Us</a>
                         </li>
                 </div>
                 </li>
@@ -89,154 +101,159 @@
         </div>
     </header>
     <section class="section1" id="section1">
-        <div class="section1-left-content">
-            <h1 class="welcome-head">Welcome</h1>
-            <p class="section1-p">
-                Ashraf Sheta for Consultancy and Training is aiming to provide <br>
-                its customers with complete solutions ,which can enhance <br>
-                performance. Our approach is comprehensive ,it is mainly built on <br>
-                the fact that all of the training ,consultancy ,and coaching activities <br>
-                should be aligned; to create sound outcomes for the customers' <br>
-                served.
-            </p>
-            <button class="section1-button" onclick="window.open(
+        <div class="row sec1_row">
+            <div class="section1-left-content col col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h1 class="welcome-head">Welcome messages</h1>
+                <p class="section1-p">
+                    Ashraf Sheta for Consultancy and Training (AS) is aiming to provide its customers with complete
+                    solutions, which can enhance performance. Our approach is comprehensive, it is mainly built on the
+                    fact
+                    that all of The Consultancy and Training activities should be aligned; to create sound outcomes for
+                    the
+                    customers' served.
+                </p>
+                <button class="section1-button" onclick="window.open(
                 'https://www.ashrafsheta.me/',
                 '_blank')">My
-                Personal
-                Website</button>
+                    Personal
+                    Website</button>
 
-            <div class="section1-social-container">
-                <!-- facebook icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                    <path id="fbcolored"
-                        d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.874,19.874,0,0,1,20,40ZM16.052,20.782V33.857h5.407V20.782h3.569l.473-4.59H21.459v-2.7a1.105,1.105,0,0,1,1.146-1.254h2.907V7.777l-4.006-.018c-4.021,0-5.454,2.819-5.454,5.457v2.974H13.48v4.593Z"
-                        fill="#3b46c7" />
-                </svg>
+                <div class="section1-social-container">
+                    <!-- facebook icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="fbcolored"
+                            d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.874,19.874,0,0,1,20,40ZM16.052,20.782V33.857h5.407V20.782h3.569l.473-4.59H21.459v-2.7a1.105,1.105,0,0,1,1.146-1.254h2.907V7.777l-4.006-.018c-4.021,0-5.454,2.819-5.454,5.457v2.974H13.48v4.593Z"
+                            fill="#3b46c7" />
+                    </svg>
 
-                <!-- twitter icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                    <g id="twittercolored" transform="translate(0)">
-                        <path id="Subtraction_1" data-name="Subtraction 1"
-                            d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.874,19.874,0,0,1,20,40ZM8.949,28.921h0a13.6,13.6,0,0,0,20.93-11.457c0-.247,0-.437-.014-.617a9.611,9.611,0,0,0,2.386-2.475,9.648,9.648,0,0,1-2.746.753,4.784,4.784,0,0,0,2.1-2.644,9.6,9.6,0,0,1-3.037,1.159,4.783,4.783,0,0,0-8.27,3.269A4.728,4.728,0,0,0,20.426,18a13.626,13.626,0,0,1-9.856-5,4.787,4.787,0,0,0,1.479,6.384,4.812,4.812,0,0,1-2.165-.6v.059a4.8,4.8,0,0,0,3.837,4.69,4.819,4.819,0,0,1-2.159.08,4.783,4.783,0,0,0,4.466,3.322,9.544,9.544,0,0,1-5.939,2.046A9.843,9.843,0,0,1,8.949,28.921Z"
-                            transform="translate(0)" fill="#8699f6" />
-                    </g>
-                </svg>
+                    <!-- twitter icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <g id="twittercolored" transform="translate(0)">
+                            <path id="Subtraction_1" data-name="Subtraction 1"
+                                d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.874,19.874,0,0,1,20,40ZM8.949,28.921h0a13.6,13.6,0,0,0,20.93-11.457c0-.247,0-.437-.014-.617a9.611,9.611,0,0,0,2.386-2.475,9.648,9.648,0,0,1-2.746.753,4.784,4.784,0,0,0,2.1-2.644,9.6,9.6,0,0,1-3.037,1.159,4.783,4.783,0,0,0-8.27,3.269A4.728,4.728,0,0,0,20.426,18a13.626,13.626,0,0,1-9.856-5,4.787,4.787,0,0,0,1.479,6.384,4.812,4.812,0,0,1-2.165-.6v.059a4.8,4.8,0,0,0,3.837,4.69,4.819,4.819,0,0,1-2.159.08,4.783,4.783,0,0,0,4.466,3.322,9.544,9.544,0,0,1-5.939,2.046A9.843,9.843,0,0,1,8.949,28.921Z"
+                                transform="translate(0)" fill="#8699f6" />
+                        </g>
+                    </svg>
 
-                <!-- instagram icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                    <g id="instagramcolored" transform="translate(0 0)">
-                        <path id="Path_774" data-name="Path 774"
-                            d="M38.075,23.88h-11.1a3.217,3.217,0,0,0-3.214,3.214V38.2a3.218,3.218,0,0,0,3.214,3.214h11.1A3.218,3.218,0,0,0,41.289,38.2v-11.1A3.218,3.218,0,0,0,38.075,23.88ZM32.524,38.416a5.771,5.771,0,1,1,5.771-5.771A5.777,5.777,0,0,1,32.524,38.416ZM38.48,28.067A1.365,1.365,0,1,1,39.846,26.7,1.367,1.367,0,0,1,38.48,28.067Z"
-                            transform="translate(-12.524 -12.645)" fill="#9845a8" />
-                        <path id="Path_775" data-name="Path 775"
-                            d="M40.181,36.971A3.332,3.332,0,1,0,43.513,40.3,3.336,3.336,0,0,0,40.181,36.971Z"
-                            transform="translate(-20.182 -20.308)" fill="#9845a8" />
-                        <path id="Path_776" data-name="Path 776"
-                            d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0ZM32.031,26.015a6.076,6.076,0,0,1-6.07,6.07H14.039a6.076,6.076,0,0,1-6.07-6.07V14.093a6.077,6.077,0,0,1,6.07-6.07H25.961a6.076,6.076,0,0,1,6.07,6.07Z"
-                            transform="translate(0 0)" fill="#9845a8" />
-                    </g>
-                </svg>
+                    <!-- instagram icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <g id="instagramcolored" transform="translate(0 0)">
+                            <path id="Path_774" data-name="Path 774"
+                                d="M38.075,23.88h-11.1a3.217,3.217,0,0,0-3.214,3.214V38.2a3.218,3.218,0,0,0,3.214,3.214h11.1A3.218,3.218,0,0,0,41.289,38.2v-11.1A3.218,3.218,0,0,0,38.075,23.88ZM32.524,38.416a5.771,5.771,0,1,1,5.771-5.771A5.777,5.777,0,0,1,32.524,38.416ZM38.48,28.067A1.365,1.365,0,1,1,39.846,26.7,1.367,1.367,0,0,1,38.48,28.067Z"
+                                transform="translate(-12.524 -12.645)" fill="#9845a8" />
+                            <path id="Path_775" data-name="Path 775"
+                                d="M40.181,36.971A3.332,3.332,0,1,0,43.513,40.3,3.336,3.336,0,0,0,40.181,36.971Z"
+                                transform="translate(-20.182 -20.308)" fill="#9845a8" />
+                            <path id="Path_776" data-name="Path 776"
+                                d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0ZM32.031,26.015a6.076,6.076,0,0,1-6.07,6.07H14.039a6.076,6.076,0,0,1-6.07-6.07V14.093a6.077,6.077,0,0,1,6.07-6.07H25.961a6.076,6.076,0,0,1,6.07,6.07Z"
+                                transform="translate(0 0)" fill="#9845a8" />
+                        </g>
+                    </svg>
 
-                <!-- Linkedin icon -->
-                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
-                    <path id="linkedincolored"
-                        d="M5311,5645.5a20,20,0,1,1,14.141-5.858A19.87,19.87,0,0,1,5311,5645.5Zm3.556-20.064c2.087,0,2.087,1.979,2.087,3.424v6.294h4.007l0-7.1c0-3.2-.583-6.152-4.812-6.152a4.245,4.245,0,0,0-3.8,2.088h-.055v-1.763h-3.852v12.931h4.012v-6.4C5312.149,5627.113,5312.435,5625.436,5314.557,5625.436Zm-12.95-3.213v12.931h4.015v-12.931Zm2.006-6.437a2.337,2.337,0,1,0,2.325,2.325A2.328,2.328,0,0,0,5303.612,5615.786Z"
-                        transform="translate(-5291 -5605.5)" fill="#3c4cb1" />
-                </svg>
-
+                    <!-- Linkedin icon -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
+                        <path id="linkedincolored"
+                            d="M5311,5645.5a20,20,0,1,1,14.141-5.858A19.87,19.87,0,0,1,5311,5645.5Zm3.556-20.064c2.087,0,2.087,1.979,2.087,3.424v6.294h4.007l0-7.1c0-3.2-.583-6.152-4.812-6.152a4.245,4.245,0,0,0-3.8,2.088h-.055v-1.763h-3.852v12.931h4.012v-6.4C5312.149,5627.113,5312.435,5625.436,5314.557,5625.436Zm-12.95-3.213v12.931h4.015v-12.931Zm2.006-6.437a2.337,2.337,0,1,0,2.325,2.325A2.328,2.328,0,0,0,5303.612,5615.786Z"
+                            transform="translate(-5291 -5605.5)" fill="#3c4cb1" />
+                    </svg>
+                </div>
             </div>
-
-        </div>
-        <div class="section1-right-content">
-            <div class="man-img-container">
-                <img src="/assets/images/section1/dr_ashraf_sheta_landing.png" alt="dr ashraf sheta">
+            <div class="section1-right-content col-xl-6 col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img src="/assets/images/Begad_section_1/dr_ashraf_sheta_landing1.png" class="" alt="Dr.ashraf"
+                    width="520" height="520">
             </div>
         </div>
     </section>
-    <section class="section2" id="section2">
-        <h2 class="section2-head">About Us</h2>
-        <p class="section2-p">
-            We are a privately held company working in the fields of consultancy and training, <br>
-            Our scope of work includes five main strategic areas: Entrepreneurship, Corporate, Innovation, Small and
-            medium
-            Enterprise, and <br>
-            Family Business. These areas were chosen carefully to cover the corporate journey from the embryonic till
-            the
-            maturity stage. <br>
-            We are proud of our diversified team who possess both practical, and academically qualified background. This
-            helped our <br>
-            organization to attain a core competence manifested in is its ability to design, and implement customized
-            programs
-            for our <br>
-            customers. As well as the fact that all of our programs are mainly concerned about practical outcomes, which
-            can
-            create value for <br>
-            our customers on both the short, and long term run. <br>
-
-        </p>
+    <section class="section2 " id="section2">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="section2-head">About Us</h2>
+            </div>
+            <div class="col-12">
+                <p class="section2-p">
+                    AS is a privately held company working in the fields of Consultancy and Training.
+                    Our scope of work includes five main strategic areas: Entrepreneurship, Corporate, Innovation, Small
+                    and
+                    medium Enterprise, and
+                    Family Business. These areas were chosen carefully to cover the corporate journey from the embryonic
+                    till
+                    the maturity stage.
+                    We are proud of our diversified team who possess both practical, and academic background. This
+                    helped our
+                    Organization to attain a core competence manifested in its ability to design, and implement
+                    customized
+                    programs for our
+                    customers. As well as the fact that all of our programs are mainly concerned about practical
+                    outcomes, which
+                    can create value for
+                    our customers on both the short, and long term run.
+                </p>
+            </div>
+        </div>
     </section>
-    <section class="section3" id="section3">
-        <h2 class="section3-head">Our Pledge</h2>
-        <div class="pledge-container">
-            <div class="section3-left-content">
+    <section class="section3 " id="section3" name="section3">
+        <div class="row-12">
+            <h2 class="section3-head">Our Pledge</h2>
+        </div>
+        <div class="pledge-container row-12">
+            <div class="section3-left-content col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <p class="section3-p">
                     Our pledge is customer centric, and it encompasses the <br> following:
                 </p>
                 <div class="pledge-item">
                     <div class="pledge-icon pi1"><img src="/assets/images/section3/square.svg" alt=""></div>
-                    <p class="pledge-p">Providing our customers with one stop shop for consultancy,<br>
-                        and training services which can help them to surpass the<br>
-                        current challenges faced in our dynamic world.</p>
+                    <p class="pledge-p">Providing our customers with one stop shop for consultancy, and training
+                        services which can help them to surpass the current challenges faced in our dynamic world.</p>
                 </div>
                 <div class="pledge-item">
                     <div class="pledge-icon pi2"><img src="/assets/images/section3/knowledge.svg" alt=""></div>
-                    <p class="pledge-p">Transferring knowledge to our customers about the latest<br>
-                        trends in management; in order to cope with the speedy<br>
-                        changes happening all over the world.</p>
+                    <p class="pledge-p">Transferring knowledge to our customers about the latest trends in
+                        management.</p>
                 </div>
                 <div class="pledge-item">
                     <div class="pledge-icon pi3"><img src="/assets/images/section3/skills.svg" alt=""></div>
-                    <p class="pledge-p">Develop the skills of our customers by using innovative tools<br>
-                        which can enhance their learning.</p>
+                    <p class="pledge-p">Transferring knowledge to our customers about the latest trends in
+                        management.</p>
                 </div>
                 <div class="pledge-item">
                     <div class="pledge-icon pi4"><img src="/assets/images/section3/monitor.svg" alt=""></div>
-                    <p class="pledge-p">Helping the customers to sustain the positive attitude in the<br>
-                        workplace, through rigorous monitoring, and evaluation.
+                    <p class="pledge-p">Helping the customers to sustain a positive attitude in the workplace,
+                        through rigorous mentoring.
                     </p>
                 </div>
             </div>
-
-            <div class="section3-right-content">
-                <img height="100%" src="/assets/images/section3/Group-hands.png" alt="">
+            <div class="section3-right-content col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img height="img-fluid" src="/assets/images/section3/Group-hands.png" alt="" width="520" height="520">
             </div>
         </div>
     </section>
-    <section class="section4" id="section4">
-        <div class="section4-left-content"><img height="100%" src="/assets/images/section4/charts.png" alt=""></div>
-        <div class="section4-right-content">
-            <h3>Value Proposition</h3>
-            <h4>Our value proposition encompasses diversified<br> dimensions including:</h4>
-            <ul>
-                <li class="s4-list-item">Offering customized training and consultancy services</li>
-                <li class="s4-list-item">Hands on experience through having a strong team of experts who<br> possess
-                    both
-                    practical, and academic
-                    expertise
-                </li>
-                <li class="s4-list-item">Possessing knowledge in different untapped areas in the market
-                </li>
-                <li class="s4-list-item">Flexibility in choosing the media of communicating our services
-                </li>
-                <li class="s4-list-item">Providing complete solutions for organizations seeking training,<br>
-                    consultancy,
-                    coaching, and
-                    mentoring
-                </li>
-            </ul>
+    <section class="section4 " id="section4">
+        <div class="row sec4_row">
+            <div class="section4-left-content  col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <img class="img-fluid" width="520" height="520" src="/assets/images/section4/charts.png" alt=""></div>
+            <div class="section4-right-content  col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                <h3>Value Proposition</h3>
+                <h4>Our value proposition encompasses diversified<br> dimensions including:</h4>
+                <ul class="color-with-marker">
+                    <li class="s4-list-item">Offering customized training and consultancy services.</li>
+                    <li class="s4-list-item">Hands on experience through having a strong team of experts who possess
+                        both
+                        practical, and academic expertise.
+                    </li>
+                    <li class="s4-list-item">Possessing knowledge in different untapped areas in the market.
+                    </li>
+                    <li class="s4-list-item">Flexibility in choosing the media of communicating our services.
+                    </li>
+                    <li class="s4-list-item">Providing complete solutions for organizations seeking Training,
+                        Consultancy
+                        and Coaching.
+                    </li>
+                </ul>
+            </div>
         </div>
+
     </section>
-    <section class="section5" id="section5">
+    <section class="section5 " id="section5">
         <h2>Our Experiential Learning Framework</h2>
         <div class="s5-box-container divided">
             <div class="s5-box s5b1">
@@ -288,92 +305,69 @@
             <div class="row sec_1_card_row">
                 <div class="col sec_1_p_col">
                     <p class="text-center sec_1_p">Our consultancy services address the main pillars of the economy,
-                        taking into
-                        consideration the
-                        particularity the organizations' served .Our team diversity allows us to provide comprehensive
-                        ,and customized solutions for our customers'.</p>
+                        taking into consideration the particularity the organizations’ served.</p>
                 </div>
             </div>
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner row w-100 mx-auto">
-                    <div class="carousel-item col-md-4 active">
-                        <div class="card">
-                            <img src="/assets/images/Begad_section_1/3.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title text-center">Family Business</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img src="/assets/images/Begad_section_1/1.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title text-center">Startups</h4>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img src="/assets/images/Begad_section_1/2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title text-center">Startup incubators & accelerators.</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img src="/assets/images/Begad_section_1/4.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title text-center">Small and medium enterprises</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img src="/assets/images/Begad_section_1/5.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title text-center">Non-governmental organizations</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img src="/assets/images/Begad_section_1/6.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title text-center">Governmental</h4>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item col-md-4">
-                        <div class="card">
-                            <img src="/assets/images/Begad_section_1/7.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h4 class="card-title text-center">Education</h4>
-                            </div>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <div class="card">
+                        <img src="/assets/images/Begad_section_1/3.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Family Business</h4>
                         </div>
                     </div>
                 </div>
-                <div class="container">
-                    <div class="row">
-                        <div class="col-12 text-center">
-                            <a class="btn  prev" href="javascript:void(0)" title="Previous">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="currentColor"
-                                    class="bi bi-dot" viewBox="0 0 16 16">
-                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                </svg>
-                            </a>
-                            <a class="btn next" href="javascript:void(0)" title="Next">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="76" height="76" fill="currentColor"
-                                    class="bi bi-dot" viewBox="0 0 16 16">
-                                    <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z" />
-                                </svg>
-                            </a>
+                <div class="item">
+                    <div class="card">
+                        <img src="/assets/images/Begad_section_1/1.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Startups</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="/assets/images/Begad_section_1/2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Startup incubators & accelerators.</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="/assets/images/Begad_section_1/4.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Small and medium enterprises</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="/assets/images/Begad_section_1/5.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Non-governmental organizations</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="/assets/images/Begad_section_1/6.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Governmental</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="card">
+                        <img src="/assets/images/Begad_section_1/7.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4 class="card-title text-center">Education</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
     </section>
     <section class="section_2" id="section_2">
         <div class="row sec_2_card_row">
@@ -393,8 +387,11 @@
         <div class="row sec_2_card_row">
             <div class="col sec_2_card_col">
                 <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">The Entrepreneurship training</h5>
+                    </div>
                     <svg class="sec_2_icons" id="XMLID_874_" xmlns="http://www.w3.org/2000/svg" width="49.328"
-                        height="62.836" viewBox="0 0 49.328 62.836" style="background-color: #8BC1C5;">
+                        height="62.836" viewBox="0 0 49.328 62.836" style="background-color: #3F8E93;">
                         <g id="XMLID_2457_" transform="translate(0 0)">
                             <g id="XMLID_2458_">
                                 <path id="XMLID_2511_"
@@ -415,23 +412,58 @@
                             </g>
                         </g>
                     </svg>
-                    <div class="card-body">
-                        <h5 class="card-title">The Entrepreneurship training</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="sec_2_list">1- Understanding entrepreneurship fundomentals</li>
-                        <li class="sec_2_list">2- Ideation the complete process</li>
-                        <li class="sec_2_list">3- Exploring the creative mindset </li>
-                    </ul>
-                    <div class="card-body  menu-items">
-                        <a href="Training-services.html#papers" target="_blank" class="card-link readMore-link">Read
-                            More
-                            →</a>
+                    <button type="button" class="btn readMore-link" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal1">
+                        Read More →
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The Entrepreneurship training:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="services_sec_ul">
+                                        <li class="services_sec_li_1"> Understanding entrepreneurship fundamentals </li>
+                                        <li class="services_sec_li_2">Ideation the complete process</li>
+                                        <li class="services_sec_li_3">Exploring the creative mindset of entrepreneurs
+                                        </li>
+                                        <li class="services_sec_li_4">Design thinking: How to be an empathic
+                                            entrepreneur</li>
+                                        <li class="services_sec_li_1">Lean startup: Validation of your business idea
+                                        </li>
+                                        <li class="services_sec_li_2">Team building as a competitive advantage for
+                                            startups</li>
+                                        <li class="services_sec_li_3">Marketing research for beginners</li>
+                                        <li class="services_sec_li_4">Marketing principles in a digital world </li>
+                                        <li class="services_sec_li_1">Human resources management for startups</li>
+                                        <li class="services_sec_li_2">Financial literacy for startups</li>
+                                        <li class="services_sec_li_3">Developing legal knowledge for entrepreneurs’</li>
+                                        <li class="services_sec_li_4">Identifying the competitive strategy for a startup
+                                        </li>
+                                        <li class="services_sec_li_1">Discovering the financial services providers for
+                                            startups</li>
+                                        <li class="services_sec_li_2">Developing communication skills for entrepreneurs’
+                                        </li>
+                                        <li class="services_sec_li_3">Writing a business plan: The art, and practice
+                                        </li>
+                                        <li class="services_sec_li_4">Developing entrepreneurial skills for seniors</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col sec_2_card_col">
                 <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">The company/organization training</h5>
+                    </div>
                     <svg class="sec_2_icons" id="XMLID_1_" xmlns="http://www.w3.org/2000/svg" width="47.651"
                         height="47.293" viewBox="0 0 47.651 47.293" style="background-color: #FF5959">
                         <path id="Path_28" data-name="Path 28"
@@ -486,24 +518,71 @@
                             d="M3.475.219l21.82,3.316a2.967,2.967,0,0,1,2.5,2.938v11.4L27,17.711a1.043,1.043,0,0,0-.834.2,1.056,1.056,0,0,0-.357.774V6.473a1,1,0,0,0-.834-.993l-21.82-3.3a.55.55,0,0,0-.179-.02.937.937,0,0,0-.635.238.949.949,0,0,0-.357.754V44.495a1,1,0,0,0,.993.993H7.942v.993a.983.983,0,0,0,.993.993H2.978A2.974,2.974,0,0,1,0,44.495V3.158A2.924,2.924,0,0,1,1.052.894,2.98,2.98,0,0,1,3.475.219Z"
                             transform="translate(0 -0.181)" fill="#fff" />
                     </svg>
-                    </svg>
-                    <div class="card-body">
-                        <h5 class="card-title">The company/organization training</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="sec_2_list">1- Establishing a human resources department in your company:
-                            Challenges and opportunities</li>
-                        <li class="sec_2_list">2- Exploring the mare of benetits and</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="Training-services.html#services_sec_2" target="_blank"
-                            class="card-link readMore-link">Read More
-                            →</a>
+                    <button type="button" class="btn readMore-link" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal2">
+                        Read More →
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The company/organization training:
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="services_sec_ul">
+                                        <li class="services_sec_li_1">Establishing a human resources department in your
+                                            company:
+                                            Challenges and opportu_1nities</li>
+                                        <li class="services_sec_li_2">xploring the maze of benefits and compensation
+                                        </li>
+                                        <li class="services_sec_li_3">esigning an effective performance appraisal system
+                                        </li>
+                                        <li class="services_sec_li_4">inancial reporting fundamentals </li>
+                                        <li class="services_sec_li_1">sing financial analysis for effective decision
+                                            making</li>
+                                        <li class="services_sec_li_2">eveloping an efficient financial management system
+                                        </li>
+                                        <li class="services_sec_li_3">nderstanding the consumer buying behavior</li>
+                                        <li class="services_sec_li_4">ntegrated marketing communication: The
+                                            fundamentals</li>
+                                        <li class="services_sec_li_1">eveloping a unique marketing strategy </li>
+                                        <li class="services_sec_li_2">Using big data as a source of competitive
+                                            advantage</li>
+                                        <li class="services_sec_li_3">Operations management fundamentals </li>
+                                        <li class="services_sec_li_4">Supply chain management in a dynamic world</li>
+                                        <li class="services_sec_li_1">Strategic thinking: The imperative managerial
+                                            skill</li>
+                                        <li class="services_sec_li_2">Strategic management in the VUCA world</li>
+                                        <li class="services_sec_li_3">Blue ocean strategy: Understanding the value
+                                            innovation</li>
+                                        <li class="services_sec_li_4">Problem solving tools in modern organizations</li>
+                                        <li class="services_sec_li_1">Balanced scorecards as a strategic performance
+                                            management tool
+                                        </li>
+                                        <li class="services_sec_li_2">Organizational change and development in a dynamic
+                                            world</li>
+                                        <li class="services_sec_li_3">Understanding organizational behavior in
+                                            contemporary
+                                            organizations</li>
+                                        <li class="services_sec_li_4">Finding the path through the corporate governance
+                                            maze</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col sec_2_card_col">
                 <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">The innovation training </h5>
+                    </div>
                     <svg class="sec_2_icons" id="innovation" xmlns="http://www.w3.org/2000/svg" width="51.54"
                         height="64.423" viewBox="0 0 51.54 64.423" style="background-color: #71CE88">
                         <g id="Group_18" data-name="Group 18" transform="translate(12.017 12.017)">
@@ -584,21 +663,48 @@
                             </g>
                         </g>
                     </svg>
-
-                    </svg>
-                    <div class="card-body">
-                        <h5 class="card-title">The innovation training </h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="sec_2_list">1- Understanding the fundamentais of innovation and technology
-                        </li>
-                        <li class="sec_2_list">2- Business model innovation as tool for raising competitiveness
-                        </li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="Training-services.html#services_sec_3" target="_blank"
-                            class="card-link readMore-link">Read More
-                            →</a>
+                    <button type="button" class="btn readMore-link" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal3">
+                        Read More →
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The innovation training:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="services_sec_ul">
+                                        <li class="services_sec_li_1">Understanding the fundamentals of innovation and
+                                            technology </li>
+                                        <li class="services_sec_li_2">Business model innovation as tool for raising
+                                            competitiveness
+                                        </li>
+                                        <li class="services_sec_li_3">Process innovation optimization in a competitive
+                                            environment</li>
+                                        <li class="services_sec_li_4">Product innovation in contemporary organizations
+                                        </li>
+                                        <li class="services_sec_li_1">Corporate innovation as a source of sustainable
+                                            competitiveness
+                                        </li>
+                                        <li class="services_sec_li_2">Developing intrapreneurship in organizations </li>
+                                        <li class="services_sec_li_3">Innovation management in a dynamic world </li>
+                                        <li class="services_sec_li_4">Managing technology in a complex environment</li>
+                                        <li class="services_sec_li_1">Continuous improvement using lean management
+                                            approach</li>
+                                        <li class="services_sec_li_2">Managing intellectual capital in knowledge
+                                            organizations</li>
+                                        <li class="services_sec_li_3">Knowledge management: The journey from concept to
+                                            implementation
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -606,8 +712,11 @@
         <div class="row sec_2_card_row">
             <div class="col sec_2_card_col">
                 <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">(SME) development training</h5>
+                    </div>
                     <svg class="sec_2_icons" xmlns="http://www.w3.org/2000/svg" width="54.428" height="54.429"
-                        viewBox="0 0 54.428 54.429" style="background-color: #3F8E93">
+                        viewBox="0 0 54.428 54.429" style="background-color: #8BC1C5">
                         <g id="sme" transform="translate(1 6.254)">
                             <g id="Group_39" data-name="Group 39" transform="translate(-1 -6.254)">
                                 <path id="Path_62" data-name="Path 62"
@@ -627,22 +736,41 @@
                             </g>
                         </g>
                     </svg>
-                    <div class="card-body">
-                        <h5 class="card-title">(SME) development training</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="sec_2_list">1- Understanding the fundamentals of running an SME </li>
-                        <li class="sec_2_list">2- How to deal with chalenges facing your firm</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="Training-services.html#services_sec_4" target="_blank"
-                            class="card-link readMore-link">Read More
-                            →</a>
+                    <button type="button" class="btn readMore-link" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal4">
+                        Read More →
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Small and medium enterprise (SME)
+                                        development
+                                        training:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="services_sec_ul">
+                                        <li class="services_sec_li_1">Understanding the fundamentals of running an SME
+                                        </li>
+                                        <li class="services_sec_li_2">How to deal with challenges facing your firm</li>
+                                        <li class="services_sec_li_3">Planning growth for your firm: The methodology
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col sec_2_card_col">
                 <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">The family business training</h5>
+                    </div>
                     <svg class="sec_2_icons" style="background-color: #FA706D" id="family_4_" data-name="family (4)"
                         xmlns="http://www.w3.org/2000/svg" width="54.247" height="54.237" viewBox="0 0 54.247 54.237">
                         <path id="Path_45" data-name="Path 45"
@@ -664,50 +792,84 @@
                             d="M410.014,286.957l-1.124-1.124,6.687-6.687v-2.732h1.589v3.39Zm7.153-11.6h-1.589v-1.589h1.589Zm0-2.648h-1.589v-1.589h1.589Zm0,0"
                             transform="translate(-365.568 -242.445)" fill="#fff" />
                     </svg>
-                    <div class="card-body">
-                        <h5 class="card-title">The family business training</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="sec_2_list">1- Family business institutionalizotion Understanding the know
-                            how
-                        </li>
-                        <li class="sec_2_list">2- Designing a succession plan in family business</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="Training-services.html#services_sec_5" target="_blank"
-                            class="card-link readMore-link">Read More
-                            →</a>
+                    <button type="button" class="btn readMore-link" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal5">
+                        Read More →
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">The family business training:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="services_sec_ul">
+                                        <li class="services_sec_li_1">Family business institutionalization:
+                                            Understanding the know how
+                                        </li>
+                                        <li class="services_sec_li_2">Designing a succession plan in family business
+                                        </li>
+                                        <li class="services_sec_li_3">Securing professionalism in family business</li>
+                                        <li class="services_sec_li_4">Rationalizing the dynamics in family business</li>
+                                        <li class="services_sec_li_1">Key to a successful governance system in family
+                                            business</li>
+                                        <li class="services_sec_li_2">Drafting a sustainable family constitution:
+                                            understanding the
+                                            know how</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col sec_2_card_col">
                 <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card-title">Public sector training</h5>
+                    </div>
                     <svg style="background-color:#8af1a4;" class="sec_2_icons" xmlns="http://www.w3.org/2000/svg"
                         width="57.796" height="44.939" viewBox="0 0 57.796 44.939">
                         <path id="customer-support_1_" data-name="customer-support (1)"
                             d="M72.58,52.667,62.514,49.249a1.048,1.048,0,0,0-1.326.628l-.784,2.2-7.221-5.019a3.96,3.96,0,0,0-2.256-.7c-5.768.116-6.446-.288-7.51.408-.882.509-1.37,1.135-2.442,1.135H34.256a4.294,4.294,0,0,0-3.667,2.038L27.12,45.787H63.411a1.031,1.031,0,0,0,1.042-1.019V42.317A8.478,8.478,0,0,0,59.3,34.573a5.157,5.157,0,0,0,1.493-5.78,5.4,5.4,0,0,0-10.027-.007,5.157,5.157,0,0,0,1.485,5.782,8.586,8.586,0,0,0-2.825,1.98,8.666,8.666,0,0,0-2.828-1.98,5.157,5.157,0,0,0,1.486-5.782,5.4,5.4,0,0,0-10.027,0,5.157,5.157,0,0,0,1.492,5.781,8.608,8.608,0,0,0-2.45,1.605,8.6,8.6,0,0,0-2.451-1.605,5.156,5.156,0,0,0,1.492-5.781,5.4,5.4,0,0,0-10.027,0A5.156,5.156,0,0,0,27.6,34.572a8.514,8.514,0,0,0-5.063,6.612,5.132,5.132,0,0,0-6,1.516,4.857,4.857,0,0,0,0,6.053L26.537,61.4a4.349,4.349,0,0,0,3.437,1.651H56.5l-.893,2.512a1.013,1.013,0,0,0,.643,1.3l10.066,3.418a1.05,1.05,0,0,0,1.327-.628l5.58-15.685a1.015,1.015,0,0,0-.643-1.3ZM52.506,30.643a3.271,3.271,0,1,1,3.276,3.2h-.007a3.24,3.24,0,0,1-3.269-3.2Zm3.268,5.234h.005a6.525,6.525,0,0,1,6.591,6.439v1.432H49.188V42.317A6.518,6.518,0,0,1,55.773,35.878ZM39.8,30.643a3.271,3.271,0,1,1,3.276,3.2h-.006a3.24,3.24,0,0,1-3.27-3.2Zm3.272,5.234a6.634,6.634,0,0,1,5.1,2.377A8.259,8.259,0,0,0,47.1,42.317v1.432H39.8V42.317a8.224,8.224,0,0,0-1.376-4.568,6.622,6.622,0,0,1,4.642-1.871ZM27.854,30.643a3.271,3.271,0,1,1,3.272,3.2h-.005A3.24,3.24,0,0,1,27.854,30.643Zm3.267,5.234h.005a6.518,6.518,0,0,1,6.591,6.439v1.432h-12.3l-.884-1.06v-.373A6.522,6.522,0,0,1,31.121,35.878ZM29.973,61.012a2.263,2.263,0,0,1-1.79-.856L18.189,47.511a2.867,2.867,0,0,1,.552-4.007,3.026,3.026,0,0,1,4.116.4L30,52.464a4.238,4.238,0,0,0,4.251,3.791h10.65a1.019,1.019,0,1,0,0-2.038H34.256a2.137,2.137,0,1,1,0-4.273h6.719c1.884,0,2.826-1.056,3.6-1.482.179-.116-.057-.039,6.348-.061a1.851,1.851,0,0,1,1.052.324l7.71,5.361-2.465,6.928Zm36.042,7-8.1-2.748,4.9-13.76,8.1,2.749Z"
                             transform="translate(-15.485 -25.395)" fill="#fff" />
                     </svg>
-                    <div class="card-body">
-                        <h5 class="card-title">Public sector training</h5>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="sec_2_list">1- Developing entrepreneurship curriculum
-                        </li>
-                        <li class="sec_2_list">2- Developing innovation curriculum</li>
-                        <li class="sec_2_list">3- Enhancing innovation in the public sector</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="Training-services.html#services_sec_6" target="_blank"
-                            class="card-link readMore-link">Read More
-                            →</a>
+                    <button type="button" class="btn readMore-link" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal6">
+                        Read More →
+                    </button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Public sector training:</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="services_sec_ul">
+                                        <li class="services_sec_li_1">Developing entrepreneurship curriculum</li>
+                                        <li class="services_sec_li_2">Developing innovation curriculum </li>
+                                        <li class="services_sec_li_3">Enhancing innovation in the public sector</li>
+                                        <li class="services_sec_li_4">Strategic planning for the public administration
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         </div>
     </section>
-    <section class="section_3" id="section_3">
+    <section class="section_3" id="section_3" name="section_3">
         <div class="container">
             <div class="row sec_3_row">
                 <h2 class="text-center sec_3_h2">Our Team</h2>
@@ -749,19 +911,52 @@
                     </div>
                 </div>
             </div>
-        </div>
-
+            <div class="row sec_3_row">
+                <div class="col sec_3_col">
+                    <div class="card" style="width: 10rem;">
+                        <img src="/assets/images/Begad_section_1/nesma-modified.png"
+                            class="card-img-top sec_3_Cardimage" alt="...">
+                        <div class="card-body sec_3_cardBody">
+                            <h5 class="card-title">Dr. Nesma Ammar</h5>
+                            <p class="card-text sec_3_p">Marketing Senior Expert </p>
+                            <a href="Dr. Nesma.html" target="_blank" class="btn sec_3_bio">Bio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sec_3_col">
+                    <div class="card" style="width: 10rem;">
+                        <img src="/assets/images/Begad_section_1/neveen1-modified.png"
+                            class="card-img-top sec_3_Cardimage " alt="...">
+                        <div class="card-body sec_3_cardBody">
+                            <h5 class="card-title">Dr. Neveen Ahmed </h5>
+                            <p class="card-text sec_3_p">Finance Senior Expert</p>
+                            <a href="Dr. Neveen.html" target="_blank" class="btn sec_3_bio">Bio</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col sec_3_col">
+                    <div class="card" style="width: 10rem;">
+                        <img src="/assets/images/Begad_section_1/rasha-modified.png"
+                            class="card-img-top sec_3_Cardimage" alt="...">
+                        <div class="card-body sec_3_cardBody">
+                            <h5 class="card-title">Dr. Rasha Waheib </h5>
+                            <p class="card-text sec_3_p ">Marketing Senior Expert</p>
+                            <a href="Dr. Rasha.html" target="_blank" class="btn sec_3_bio">Bio</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
     </section>
-    <section class="section_4">
+    <section class="section_4" id="section_4">
         <div class="row sec_4_row">
             <div class="col sec_4_col sec_4_Left_col">
                 <h4>We'd love to hear from you.</h4>
                 <form>
                     <!-- Name input -->
                     <div class="form-outline mb-4">
-                        <label class="form-label" for="form4Example1">Name</label>
+                        <label class="form-label" for="form4Example1">First Name</label>
                         <input type="text" id="form4Example1" class="form-control" />
 
                     </div>
@@ -769,7 +964,7 @@
                     <!-- Email input -->
                     <div class="form-outline mb-4">
                         <label class="form-label" for="form4Example2">Email
-                            address</label>
+                        </label>
                         <input type="email" id="form4Example2" class="form-control" />
 
                     </div>
@@ -781,11 +976,11 @@
 
                     </div>
                     <!-- Submit button -->
-                    <button type="submit" class="btn btn-primary btn-block mb-4">Submit</button>
+                    <button type="submit" class="btn btn-primary btn-block mb-4 sec_4_submitButton">Submit</button>
                 </form>
             </div>
             <div class="col sec_4_col sec_4_rightCol">
-                <svg class="svgCornerTR" id="Group_77" class="ribbon" data-name="Group 77"
+                <!--<svg class="svgCornerTR" id="Group_77" class="ribbon" data-name="Group 77"
                     xmlns="http://www.w3.org/2000/svg" width="84.557" height="84.558" viewBox="0 0 84.557 84.558">
                     <circle id="Ellipse_31" data-name="Ellipse 31" cx="42.279" cy="42.279" r="42.279" fill="#77c2c8" />
                     <g id="send_2_1" data-name="send (2) 1" transform="translate(18.119 13.288)">
@@ -801,36 +996,37 @@
                         <path id="Vector-4" data-name="Vector" d="M0,1.231H14.767A1.23,1.23,0,0,0,16,0H.313Z"
                             transform="translate(11.783 35.119) rotate(-30)" fill="#2f767b" />
                     </g>
-                </svg>
-                <div class="row">
+                </svg>-->
+                <div class="row sec_4_rightCol_titleDiv">
                     <h4>Contact Us</h4>
                 </div>
-                <div class="row contact_div"><svg xmlns="http://www.w3.org/2000/svg" width="30.316" height="30.316"
-                        viewBox="0 0 30.316 30.316">
-                        <path id="Icon_awesome-phone-alt" data-name="Icon awesome-phone-alt"
-                            d="M29.451,21.423,22.82,18.581a1.421,1.421,0,0,0-1.658.409l-2.937,3.588A21.947,21.947,0,0,1,7.733,12.086l3.588-2.937a1.418,1.418,0,0,0,.409-1.658L8.888.859A1.431,1.431,0,0,0,7.259.036L1.1,1.457A1.421,1.421,0,0,0,0,2.842,27.471,27.471,0,0,0,27.474,30.316a1.421,1.421,0,0,0,1.386-1.1l1.421-6.158a1.438,1.438,0,0,0-.83-1.634Z"
-                            transform="translate(0 0)" fill="#fff" />
-                    </svg>
+                <div class="sec_4_rightCol_info">
+                    <div class="row contact_div"><svg xmlns="http://www.w3.org/2000/svg" width="20.316" height="20.316"
+                            viewBox="0 0 30.316 30.316">
+                            <path id="Icon_awesome-phone-alt" data-name="Icon awesome-phone-alt"
+                                d="M29.451,21.423,22.82,18.581a1.421,1.421,0,0,0-1.658.409l-2.937,3.588A21.947,21.947,0,0,1,7.733,12.086l3.588-2.937a1.418,1.418,0,0,0,.409-1.658L8.888.859A1.431,1.431,0,0,0,7.259.036L1.1,1.457A1.421,1.421,0,0,0,0,2.842,27.471,27.471,0,0,0,27.474,30.316a1.421,1.421,0,0,0,1.386-1.1l1.421-6.158a1.438,1.438,0,0,0-.83-1.634Z"
+                                transform="translate(0 0)" fill="#fff" />
+                        </svg>
 
-                    <p class="sec_4_p">0100 102 4776</p>
-                </div>
-                <div class="row contact_div"><svg xmlns="http://www.w3.org/2000/svg" width="30.316" height="24.253"
-                        viewBox="0 0 30.316 24.253">
-                        <path id="Icon_material-email" data-name="Icon material-email"
-                            d="M30.284,6H6.032A3.028,3.028,0,0,0,3.015,9.032L3,27.221a3.041,3.041,0,0,0,3.032,3.032H30.284a3.041,3.041,0,0,0,3.032-3.032V9.032A3.041,3.041,0,0,0,30.284,6Zm0,6.063L18.158,19.642,6.032,12.063V9.032l12.126,7.579L30.284,9.032Z"
-                            transform="translate(-3 -6)" fill="#fff" />
-                    </svg>
+                        <p class="sec_4_p">0100 102 4776</p>
+                    </div>
+                    <div class="row contact_div"><svg xmlns="http://www.w3.org/2000/svg" width="20.316" height="24.253"
+                            viewBox="0 0 30.316 24.253">
+                            <path id="Icon_material-email" data-name="Icon material-email"
+                                d="M30.284,6H6.032A3.028,3.028,0,0,0,3.015,9.032L3,27.221a3.041,3.041,0,0,0,3.032,3.032H30.284a3.041,3.041,0,0,0,3.032-3.032V9.032A3.041,3.041,0,0,0,30.284,6Zm0,6.063L18.158,19.642,6.032,12.063V9.032l12.126,7.579L30.284,9.032Z"
+                                transform="translate(-3 -6)" fill="#fff" />
+                        </svg>
 
-                    <p class="sec_4_p">info@ashrafsheta.com</p>
-                </div>
-                <div class="row contact_div"><svg xmlns="http://www.w3.org/2000/svg" width="24.966" height="35.665"
-                        viewBox="0 0 24.966 35.665">
-                        <path id="Icon_material-location-on" data-name="Icon material-location-on"
-                            d="M19.983,3A12.474,12.474,0,0,0,7.5,15.483c0,9.362,12.483,23.182,12.483,23.182s12.483-13.82,12.483-23.182A12.474,12.474,0,0,0,19.983,3Zm0,16.941a4.458,4.458,0,1,1,4.458-4.458A4.46,4.46,0,0,1,19.983,19.941Z"
-                            transform="translate(-7.5 -3)" fill="#fff" />
-                    </svg>
-
-                    <p class="sec_4_p">Villa 33B, Moon Land Compound, Al-Sheikh Zayed.</p>
+                        <p class="sec_4_p">info@ashrafsheta.com</p>
+                    </div>
+                    <div class="row contact_div"><svg xmlns="http://www.w3.org/2000/svg" width="24.966" height="25.665"
+                            viewBox="0 0 24.966 35.665">
+                            <path id="Icon_material-location-on" data-name="Icon material-location-on"
+                                d="M19.983,3A12.474,12.474,0,0,0,7.5,15.483c0,9.362,12.483,23.182,12.483,23.182s12.483-13.82,12.483-23.182A12.474,12.474,0,0,0,19.983,3Zm0,16.941a4.458,4.458,0,1,1,4.458-4.458A4.46,4.46,0,0,1,19.983,19.941Z"
+                                transform="translate(-7.5 -3)" fill="#fff" />
+                        </svg>
+                        <p class="sec_4_p">Villa 33B, Moon Land Compound, Al-Sheikh Zayed.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -859,7 +1055,7 @@
                                 <a href="#!">Villa 33B, Moon Land Compound, Al-Sheikh Zayed. Giza, Egypt.</a>
                             </li>
                             <li>
-                                <a href="#!">website www.ashrafsheta.co</a>
+                                <a href="#!">website www.ashrafsheta.com</a>
                             </li>
                             <li>
                                 <a href="#!"> 0100 102 4776</a>
@@ -885,10 +1081,13 @@
                         <h5 class="">Social</h5>
                         <ul class="list-unstyled">
                             <li class="social_media_logo_li">
-                                <a href="#" class="fa fa-facebook social_media_logo"></a>
-                                <a href="#" class="fa fa-twitter social_media_logo"></a>
-                                <a href="#" class="fa fa-linkedin social_media_logo"></a>
-                                <a href="#" class="fa fa-instagram social_media_logo"></a>
+                                <a href="https://www.facebook.com/ashraf.m.sheta"
+                                    class="fa fa-facebook social_media_logo"></a>
+                                <a href="https://www.instagram.com/ashraf.m.sheta/"
+                                    class="fa fa-instagram social_media_logo"></a>
+                                <a href="https://www.linkedin.com/in/dr-ashraf-sheta-a8073a16"
+                                    class="fa fa-linkedin social_media_logo"></a>
+                                <a href="http://twitter.com/ashrafsheta5" class="fa fa-twitter social_media_logo"></a>
                             </li>
                         </ul>
                     </div>
@@ -899,18 +1098,29 @@
             <!-- Copyright -->
             <div class="footer-copyright text-center py-3">© Copyright 2021
                 <a href="https://www.ashrafsheta.com"> www.ashrafsheta.com </a> Design I
-                <img src="/assets/images/Begad_section_1/white logo.png" class="" width="55px" height="15px" alt="...">
+                <a href="http://teqneia.com/" target="_blank"><img
+                        src="/assets/images/Begad_section_1/TQ_Logo_White-NoBg.png" class="" width="70px" height="12px"
+                        alt="..."></a>
             </div>
             <!-- Copyright -->
         </footer>
         <!-- Footer -->
     </footer>
+    <!--Jquery-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--Owl Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <script src="javascript/CardCarousel.js"></script>
     <script src="javascript/Navbar.js"></script>
+
 </body>
 
 </html>

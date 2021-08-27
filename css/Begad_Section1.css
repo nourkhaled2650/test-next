@@ -6,7 +6,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 3rem 1rem;
+    margin: 4rem 1rem;
+
 }
 
 .sec_1_p_col,
@@ -15,15 +16,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    margin-bottom: 1rem;
 }
 
 
 .sec_1_h2,
 .sec_3_h2 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 2rem;
-    margin-top: 5rem;
+    margin-top: 0rem;
 }
 
 .sec_3_h2 {
@@ -36,15 +38,19 @@
 .sec_2_p {
     font-size: 19px;
     color: gray;
-    max-width: 40rem;
+    max-width: 56rem;
 }
 
 .card-title {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 /*------------------- Card Carousel Css ------------------- */
+.sliding-dots {
+    width: 5px;
+}
+
 .card {
     border: none !important;
 }
@@ -194,7 +200,7 @@ svg:hover {
 /*------------ Section 2 ------------------*/
 .sec_2_h2 {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 35px;
     margin-bottom: 1rem;
 }
 
@@ -216,7 +222,13 @@ svg:hover {
     border-radius: 0.5rem;
     border: 3.5px solid transparent;
     min-height: 23rem !important;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.sec_2_card_col>.card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .sec_2_card_col:hover {
@@ -231,10 +243,17 @@ svg:hover {
 
 .card-body {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-direction: column;
     padding: 1rem 0rem !important;
+    text-align: center;
+}
+
+.sec_2_icons {
+    width: 7rem !important;
+    height: 7rem !important;
+    padding: 1.5rem !important;
 }
 
 /*----------- Section 3 -----------------*/
@@ -257,9 +276,10 @@ svg:hover {
 }
 
 .sec_3_col {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
-    min-height: 25rem !important;
-    height: 100% !important;
+    flex-wrap: wrap !important;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    min-height: 26rem !important;
     display: flex;
     justify-content: center;
     align-items: unset;
@@ -276,15 +296,94 @@ svg:hover {
     text-decoration: underline;
 }
 
+/*--------------------- POPUP -------------------------*/
+.btn-close {
+    background-color: transparent;
+    border: none;
+    outline: none !important;
+}
+
+.readMore-link {
+    background-color: transparent !important;
+    color: #77C2C8 !important;
+}
+
+.services_sec_li_1::before {
+    content: "\26AC";
+    color: #3F8E94;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0em;
+}
+
+.services_sec_li_2::before {
+    content: "\26AC";
+    color: #6FAAAE;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0em;
+}
+
+.services_sec_li_3::before {
+    content: "\26AC";
+    color: #B4D2D4;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0em;
+}
+
+.services_sec_li_4::before {
+    content: "\26AC";
+    color: #78C2C8;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: 0em;
+}
+
+.modal-title {
+    font-weight: 700;
+}
+
+.modal-header {
+    border: none !important;
+}
+
+.modal-body {
+    line-height: 2 !important;
+}
+
+.services_sec_ul {
+    font-size: 14px;
+}
+
+/*------------ Section4 ----------------------*/
 
 .sec_4_rightCol {
     background-color: #295A5E;
+    color: white;
+}
+
+.sec_4_rightCol_titleDiv {
+    padding: 2.5rem !important;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.sec_4_rightCol_info {
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
+    align-items: flex-start;
     flex-direction: column;
-    color: white;
-    padding: 2rem !important;
+    padding: 1rem 3rem !important;
+}
+
+.sec_4_rightCol_info>div {
+    padding: 2rem 0rem !important;
 }
 
 .sec_4_Left_col {
@@ -297,12 +396,18 @@ svg:hover {
     padding: 2rem !important;
 }
 
+.sec_4_Left_col>h4 {
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
 .contact_div {
     display: flex;
     justify-content: baseline;
     align-items: center;
     padding: 1rem;
     flex-direction: row;
+    flex-wrap: nowrap !important;
 }
 
 .svgCornerTR {
@@ -322,10 +427,26 @@ svg:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0px 2rem;
+    padding: 0px 1rem;
     margin-bottom: 0 !important;
+    font-size: 15px;
 }
 
+.sec_3_Cardimage {
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}
+
+.form-control {
+    padding: 0.375rem 9.75rem !important;
+}
+
+.sec_4_submitButton {
+    padding: 0.5rem 3rem !important;
+    font-size: 14px !important;
+}
 
 /*----------- Footer ----------------*/
 .footer_col {
@@ -374,12 +495,13 @@ footer {
     padding: 0.5rem;
     border-radius: 50%;
     margin-right: 0.3rem;
-    width: 27px;
-    height: 27px;
+    width: 32px;
+    height: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center !important;
+    font-size: 1rem !important;
 }
 
 .social_media_logo:hover {

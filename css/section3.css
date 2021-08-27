@@ -6,19 +6,18 @@
 
 .section3-head {
   font-weight: 600;
-  font-size: 40px;
+  font-size: 35px;
   margin-bottom: 2rem;
 }
 
 .section3-p {
   color: #5b5b5b;
-  margin-bottom: 15px;
-  font-size: 24px;
+  margin-bottom: 1rem;
+  font-size: 20px;
 }
 
 .pledge-container {
   display: flex;
-  flex-wrap: wrap-reverse;
   justify-content: space-between;
   align-items: flex-start;
 }
@@ -27,6 +26,12 @@
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+}
+
+.pledge-p {
+  font-size: 14px;
+  max-width: 30rem;
+  margin-bottom: 0 !important;
 }
 
 .pledge-icon {
@@ -60,5 +65,169 @@
   height: 450px;
   user-select: none;
   margin-right: 25px;
-  box-shadow: 130px -1px 360px -70px rgba(119, 195, 200, 0.55);
+  /*box-shadow: 130px -1px 360px -70px rgba(119, 195, 200, 0.55);*/
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .section3 {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 90%;
+  }
+
+  .section3-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .section3-p {
+    color: #5b5b5b;
+    margin-bottom: 1rem;
+    font-size: 20px;
+  }
+
+  .pledge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .pledge-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .pledge-p {
+    font-size: 14px;
+    max-width: 30rem;
+    margin-bottom: 0 !important;
+  }
+
+  .pledge-icon {
+    padding: 1rem;
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pi1 {
+    background: rgb(119, 194, 200);
+  }
+
+  .pi2 {
+    background: #3f8e94;
+  }
+
+  .pi3 {
+    background: #006380;
+  }
+
+  .pi4 {
+    background: #14183e;
+  }
+
+  .section3-right-content {
+    height: 450px;
+    user-select: none;
+    margin-right: 0px;
+    box-shadow: 130px -1px 360px -70px rgba(119, 195, 200, 0.55);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .section3 {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 90%;
+  }
+
+  .section3-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+
+  .section3-p {
+    color: #5b5b5b;
+    margin-bottom: 1rem;
+    font-size: 20px;
+  }
+
+  .pledge-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .pledge-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .pledge-p {
+    font-size: 14px;
+    max-width: 30rem;
+    margin-bottom: 0 !important;
+  }
+
+  .pledge-icon {
+    padding: 1rem;
+    width: 80px;
+    height: 80px;
+    background: black;
+    border-radius: 15px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pi1 {
+    background: rgb(119, 194, 200);
+  }
+
+  .pi2 {
+    background: #3f8e94;
+  }
+
+  .pi3 {
+    background: #006380;
+  }
+
+  .pi4 {
+    background: #14183e;
+  }
+
+  .section3-right-content {
+    height: 450px;
+    user-select: none;
+    margin-right: 0px;
+    box-shadow: 130px -1px 360px -70px rgba(119, 195, 200, 0.55);
+  }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
