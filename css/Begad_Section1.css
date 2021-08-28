@@ -454,6 +454,7 @@ svg:hover {
     justify-content: baseline;
     align-items: flex-start;
     flex-direction: column;
+    text-align: initial;
 }
 
 .footer_col>h5 {

@@ -6,4 +6,12 @@
 
 html {
   scroll-behavior: smooth;
+  outline: 2px red solid !important;
+
+}
+
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important
 }

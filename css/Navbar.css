@@ -83,7 +83,7 @@ header {
 }
 
 .scrolling-active>.nav {
-    height: 5rem;
+    height: 6rem;
 }
 
 .scrolling-active>nav>div>div>ul>li>a {
