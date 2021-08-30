@@ -63,6 +63,14 @@ header {
 
 }
 
+.toscroll:active {
+    color: rgb(145, 205, 210) !important;
+}
+
+.toscroll:focus {
+    color: rgb(145, 205, 210) !important;
+}
+
 /*Apply styles after scroll*/
 .scrolling-active {
     background-color: #ffffff;
