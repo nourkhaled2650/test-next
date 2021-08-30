@@ -449,7 +449,7 @@ svg:hover {
 }
 
 .address {
-    padding: 0px 0rem !important;
+    padding-left: -1.6px;
 }
 
 /*----------- Footer ----------------*/

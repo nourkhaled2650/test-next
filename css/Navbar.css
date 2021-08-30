@@ -167,3 +167,7 @@ header {
 .tq-footer-logo {
     margin-bottom: 0.35rem;
 }
+
+.location-svg {
+    margin-left: -1.5px
+}
