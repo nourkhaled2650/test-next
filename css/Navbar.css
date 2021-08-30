@@ -64,11 +64,11 @@ header {
 }
 
 .toscroll:active {
-    color: rgb(145, 205, 210) !important;
+    color: #3F8E94 !important;
 }
 
 .toscroll:focus {
-    color: rgb(145, 205, 210) !important;
+    color: #3F8E94 !important;
 }
 
 /*Apply styles after scroll*/
@@ -162,4 +162,8 @@ header {
     text-align: center;
     background: #f15a22;
     color: #fff;
+}
+
+.tq-footer-logo {
+    margin-bottom: 0.35rem;
 }

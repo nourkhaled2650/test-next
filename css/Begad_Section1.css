@@ -448,6 +448,10 @@ svg:hover {
     font-size: 14px !important;
 }
 
+.address {
+    padding: 0px 0rem !important;
+}
+
 /*----------- Footer ----------------*/
 .footer_col {
     display: flex;
