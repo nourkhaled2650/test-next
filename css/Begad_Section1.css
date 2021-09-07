@@ -198,7 +198,8 @@ svg:hover {
 }
 
 /*------------ Section 2 ------------------*/
-.sec_2_h2 {
+.sec_2_h2,
+.sec2_1-h1 {
     font-weight: 600;
     font-size: 35px;
     margin-bottom: 1rem;
@@ -254,6 +255,48 @@ svg:hover {
     width: 7rem !important;
     height: 7rem !important;
     padding: 1.5rem !important;
+}
+
+/*----------------------section2_1-------------------*/
+.section_2_1 {
+    margin: 4rem 0;
+}
+
+.sec2_1-contentCol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: left;
+}
+
+.sec2_1-imgCol {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.sec2_1-contentCol>h1 {
+    display: flex;
+    justify-self: flex-start !important;
+    align-self: flex-start !important;
+    margin-bottom: 2rem;
+}
+
+.sec2_1-contentCol>p {
+    font-size: 17px;
+    color: gray;
+}
+
+.sec2_1-image {
+    max-width: 550px;
+    max-height: 400px;
+    background-color: white;
+    border-radius: 2em;
+    display: flex;
+    justify-self: flex-end !important;
+    align-self: flex-end !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
 
 /*----------- Section 3 -----------------*/

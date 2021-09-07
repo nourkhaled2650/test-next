@@ -74,8 +74,16 @@
   background: #55AF6C;
 }
 
-.divided {
-  background: linear-gradient(transparent 54%, #3F8E94 45%, #3F8E94 55%, transparent 55%);
+
+.pointing-Arrows {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  color: #3F8E94;
+}
+
+.return-p-para {
+  font-size: 11px !important;
 }
 
 @media (max-width: 1366px) {
