@@ -1,0 +1,10 @@
+<svg id="icon_navigation_arrow_forward_24px-2" data-name="icon/navigation/arrow_forward_24px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="34.838" height="32.179" viewBox="0 0 34.838 32.179">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="icon_navigation_arrow_forward_24px" data-name="icon/navigation/arrow_forward_24px" d="M1.452,11.521H17.666l-7.084,6.543a1.279,1.279,0,0,0,0,1.9,1.531,1.531,0,0,0,2.047,0l9.566-8.836a1.264,1.264,0,0,0,0-1.891L12.643.392a1.531,1.531,0,0,0-2.047,0,1.264,1.264,0,0,0,0,1.891l7.069,6.556H1.452A1.4,1.4,0,0,0,0,10.18,1.4,1.4,0,0,0,1.452,11.521Z" transform="translate(0 0)" fill="#37474f"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(6.11 5.91)">
+    <path id="icon_navigation_arrow_forward_24px-3" data-name="icon/navigation/arrow_forward_24px" d="M1.452,11.521H17.666l-7.084,6.543a1.279,1.279,0,0,0,0,1.9,1.531,1.531,0,0,0,2.047,0l9.566-8.836a1.264,1.264,0,0,0,0-1.891L12.643.392a1.531,1.531,0,0,0-2.047,0,1.264,1.264,0,0,0,0,1.891l7.069,6.556H1.452A1.4,1.4,0,0,0,0,10.18,1.4,1.4,0,0,0,1.452,11.521Z" transform="translate(0 0)" fill="#fff"/>
+  </g>
+</svg>
