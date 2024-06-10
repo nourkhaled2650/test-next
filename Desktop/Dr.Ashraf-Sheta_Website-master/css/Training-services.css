@@ -1,0 +1,91 @@
+/*------------------------ Header Section ----------------------------*/
+
+.header_section {
+    margin-top: 10rem;
+    background-color: #327176;
+    padding-bottom: 2rem;
+}
+
+.header_sec_image {
+    /* clip-path: circle(58.1% at 70% 35%);*/
+    margin-top: 0 !important;
+}
+
+.header_sec_LeftCol {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    color: white;
+
+}
+
+.header_sec_LeftCol>h1 {
+    text-align: left !important;
+    padding: 2rem;
+    font-weight: 600;
+}
+
+.header_sec_LeftCol>p {
+    text-align: left;
+    padding: 1.5rem 3rem;
+}
+
+/*------------------------------ Services Section ------------------------------------*/
+*[services_sec_1]:before {
+    display: block;
+    content: " ";
+    margin-top: -75rem;
+    height: 75rem;
+    visibility: hidden;
+}
+
+.services_sec {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    padding: 2rem;
+    margin: 3rem 0;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.services_sec_row {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.services_sec>.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40rem;
+}
+
+.services_sec_6 {
+    border: none !important;
+}
+
+.services_sec_LeftCol {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+
+}
+
+.services_sec_RightCol>h4 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+
+}
+
+.services_sec_RightCol {}
+
+.services_sec_ul {
+    list-style-type: none !important;
+}
+
+.services_sec_li {
+    padding-left: 1.5rem;
+}

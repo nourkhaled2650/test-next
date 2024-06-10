@@ -1,0 +1,251 @@
+.section5 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.section5 h2 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 35px;
+  margin-bottom: 2rem;
+}
+
+.connecting-line {
+  width: 1rem;
+  height: min-content;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 0.1rem 0;
+  background-color: cadetblue;
+}
+
+.s5-box-container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 90%;
+}
+
+.s5-box {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.s5-box p {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.s5b1 {
+  background: #77c2c8;
+}
+
+.s5b2 {
+  background: #FF5959;
+}
+
+.s5b3 {
+  background: #70CE88;
+}
+
+.s5b4 {
+  background: #3F8E94;
+}
+
+.s5b5 {
+  background: #FA706C;
+}
+
+.s5b6 {
+  background: #55AF6C;
+}
+
+
+.pointing-Arrows {
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  color: #3F8E94;
+}
+
+.return-p-para {
+  font-size: 11px !important;
+}
+
+@media (max-width: 1366px) {
+  .divided {
+    background: none;
+  }
+
+  .s5-box {
+    margin: 0px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .section5 h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #bec2c5;
+    padding-bottom: 2rem;
+  }
+
+  .s5-box {
+    width: 150px;
+    height: 150px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+    flex-direction: inherit;
+  }
+
+  .s5-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+  }
+
+  .s5-box p {
+    text-align: center;
+    color: white;
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .s5b1 {
+    background: #77c2c8;
+  }
+
+  .s5b2 {
+    background: #FF5959;
+  }
+
+  .s5b3 {
+    background: #70CE88;
+  }
+
+  .s5b4 {
+    background: #3F8E94;
+  }
+
+  .s5b5 {
+    background: #FA706C;
+  }
+
+  .s5b6 {
+    background: #55AF6C;
+  }
+
+  .divided {
+    background: none;
+  }
+
+  .s5-box {
+    margin: 15px;
+  }
+
+  .connecting-line {
+    display: none !important;
+  }
+}
+
+.connecting-line {
+  width: 1rem;
+  height: min-content;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  padding: 0.1rem 0;
+  background-color: cadetblue;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+  .section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+
+  .section5 h2 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #bec2c5;
+    padding-bottom: 2rem;
+  }
+
+  .divided {
+    background: none;
+  }
+
+  .s5-box {
+    width: 150px;
+    height: 150px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
+    flex-direction: inherit;
+  }
+
+  .s5-box {
+    margin: 15px;
+  }
+
+  .connecting-line {
+    display: none !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .s5-box {
+    margin: 15px;
+  }
+
+  .connecting-line {
+    display: none !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

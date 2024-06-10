@@ -1,0 +1,28 @@
+.section_bio {
+    margin: 15rem 0;
+    line-height: 1.75rem !important;
+}
+
+.section_bio>.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bio_LeftCol {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.bio_RightCol {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.bio_RightCol>p {
+    margin-top: 1rem;
+    font-size: 14.5px;
+}
